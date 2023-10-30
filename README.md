@@ -108,7 +108,7 @@ Website Navigation:
 - Click "return to index page" link to navigate to the Coffee and Wi-Fi homepage.
 - Use the "/add" route to navigate to the add webpage.
 - Click "See all cafes" link to navigate to the Coffee and Wi-Fi homepage.
-- Fill Cafe form and click "Submit" button.
+- Fill CafeForm form and click "Submit" button.
 - On clicking "Submit" button,  append new cafe details (obtained from Cafe form) to "cafe-data.csv" and redirect to cafes webpage.
 - Use the "/cafes" route to navigate to the cafes webpage.
 
