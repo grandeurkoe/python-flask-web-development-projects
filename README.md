@@ -39,3 +39,16 @@ Website Navigation:
 For a live version, go [here](https://replit.com/@grandeurkoe/name-card?v=1) .
 
 ![Higher or Lower URLs](name-card/name-card.gif)
+
+### Day 057 - Blog
+
+This project simulates a Blog website using the Flask framework.
+
+Website Navigation:
+- The Blog website is running on a development server that Flask ships with.
+- Use the "/blog" route to navigate to the blog webpage.
+- Each post on the blog webpage has a "Read" link.
+- Click on "Read" link to navigate to that post's webpage.
+- Use the "/post/post_id" route to navigate to each post based on post_id (integer).
+
+![Blog](blog/blog.gif)
