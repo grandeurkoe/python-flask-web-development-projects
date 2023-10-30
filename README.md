@@ -10,6 +10,6 @@ This project involves contructing your own custom python decorator.
 
 Here, we created a delay constructor that prints "How are you?" after a 2 second delay.
 
-For a live version, go [here](https://replit.com/@grandeurkoe/the-hirst-painting-project?v=1) .
+For a live version, go [here](https://replit.com/@grandeurkoe/python-decorators?v=1) .
 
 ![Python Decorator](python-decorators/python-decorators.gif)
