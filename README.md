@@ -113,3 +113,25 @@ Website Navigation:
 - Use the "/cafes" route to navigate to the cafes webpage.
 
 ![Coffee and Wi-Fi](coffee-and-wifi/coffee-and-wifi.gif)
+
+### Day 063 - Library
+
+This project simulates a Library website using the Flask framework. 
+
+Steps involved in working with SQLAlchemy:
+1. Create the app.
+2. Configure the SQLite database (new_library.db), relative to the app instance folder.
+3. Create an SQLAlchemy object .
+4. Initialize the app with the extension.
+5. Create table (Book).
+6. Perform CRUD operations on table using SQLAlchemy object.
+
+Website Navigation:
+- The Library website is running on a development server that Flask ships with.
+- Use the "/" route to navigate to the Library homepage.
+- If the "Book" table has no entries, then the Library homepage will display a paragraph mentioning that the "Library is empty".
+- If the "Book" table has entries, then the Library homepage will display each book entry with an "Edit rating" and "Delete" link at both ends.
+- Click "Delete" link for a particular book to delete it from "Book" table.
+- Click "Edit rating" to navigate to the edit webpage for that book. 
+
+![Library](library-project/library-project.gif)
