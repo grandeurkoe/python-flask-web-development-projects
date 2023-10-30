@@ -99,7 +99,7 @@ For a live version, go [here](https://replit.com/@grandeurkoe/flask-secrets?v=1)
 
 ### Day 062 - Coffee and Wi-Fi
 
-This project simulates a Coffee and Wi-Fi website using the Flask framework. Get cafe data from "cafe-data.csv" and store it. Use the flask_wtf and wtforms module to generate and validate the Cafe Form. Use the flask_bootstrap module to render Cafe Form in add cafe webpage.
+This project simulates a Coffee and Wi-Fi website using the Flask framework. Get cafe data from "cafe-data.csv" and store it. Use the flask_wtf and wtforms module to generate and validate the CafeForm form. Use the flask_bootstrap module to render CafeForm form in add webpage.
 
 Website Navigation:
 - The Coffee and Wi-Fi website is running on a development server that Flask ships with.
@@ -141,3 +141,23 @@ Website Navigation:
 For a live version, go [here](https://replit.com/@grandeurkoe/library-project?v=1) .
 
 ![Library](library-project/library-project.gif)
+
+### Day 064 - Top Movie
+
+This project simulates a Top Movie website using the Flask framework.  Use the flask_wtf and wtforms module to generate and validate the AddMovieForm and UpdateMovieForm forms. Use the flask_bootstrap module to render AddMovieForm and UpdateMovieForm forms in add and edit webpage respectively.
+
+Steps involved in working with SQLAlchemy:
+1. Create the app.
+2. Configure the SQLite database (top-movies.db), relative to the app instance folder.
+3. Create an SQLAlchemy object .
+4. Initialize the app with the extension.
+5. Create table (Movie).
+6. Perform CRUD operations on table using SQLAlchemy object.
+
+Website Navigation:
+- The Top Movie website is running on a development server that Flask ships with.
+- Use the "/" route to navigate to the Top Movie homepage.
+- Click "Add movie" button on the Top Movie homepage to navigate to the add webpage.
+- Fill the empty field with the name of the movie you wish to add and click "Add movie" button.
+
+![Top Movie](top-movies/top-movies.gif)
