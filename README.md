@@ -27,3 +27,15 @@ Website Navigation:
 - If the guessed_number is correct, then display a webpage with "You found me!" green heading and a funny GIF.
 
 ![Higher or Lower URLs](higher-or-lower-urls/higher-or-lower-urls.gif)
+
+### Day 056 - Name Card
+
+This project simulates a Name Card website using the Flask framework. Use [Aerial](https://html5up.net/aerial) template from [HTML5 UP](https://html5up.net/) website.
+
+Website Navigation:
+- The Name Card website is running on a development server that Flask ships with.
+- Use the "/" route to navigate to the name card webpage.
+
+For a live version, go [here](https://replit.com/@grandeurkoe/name-card?v=1) .
+
+![Higher or Lower URLs](name-card/name-card.gif)
