@@ -132,6 +132,12 @@ Website Navigation:
 - If the "Book" table has no entries, then the Library homepage will display a paragraph mentioning that the "Library is empty".
 - If the "Book" table has entries, then the Library homepage will display each book entry with an "Edit rating" and "Delete" link at both ends.
 - Click "Delete" link for a particular book to delete it from "Book" table.
-- Click "Edit rating" to navigate to the edit webpage for that book. 
+- Click "Edit rating" to navigate to the edit webpage for that book.
+- Enter new rating in the field and click "Change rating". This will update the rating for that book in the "Book" table and redirect to the Library homepage.
+- Click "Add book" link on the Library homepage to navigate to the add webpage.
+- Fill the form with new book details and click "Add book". This will create a new book entry in the "Book" table and redirect to the Library homepage.
+- - Use the "/add" route to navigate to the add webpage.
+
+For a live version, go [here](https://replit.com/@grandeurkoe/library-project?v=1) .
 
 ![Library](library-project/library-project.gif)
