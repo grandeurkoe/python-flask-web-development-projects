@@ -40,7 +40,7 @@ For a live version, go [here](https://replit.com/@grandeurkoe/name-card?v=1) .
 
 ![Higher or Lower URLs](name-card/name-card.gif)
 
-### Day 057 - Blog
+### Day 057 - Blog (v1)
 
 This project simulates a Blog website using the Flask framework.
 
@@ -51,4 +51,24 @@ Website Navigation:
 - Click on "Read" link to navigate to that post's webpage.
 - Use the "/post/post_id" route to navigate to each post based on post_id (integer).
 
-![Blog](blog/blog.gif)
+![Blog (v1)](blog/blog.gif)
+
+### Day 059 - Blog (v2)
+
+This project simulates a Blog website using the Flask framework. Use the requests module to get post data from the [npoint](https://api.npoint.io/eb6cd8a5d783f501ee7d) API. Store the newly acquired JSON response.
+
+Website Navigation:
+- The Blog website is running on a development server that Flask ships with.
+- Use the "/" route to navigate to the blog homepage.
+- Each post on the homepage is a link.
+- Click on post link to navigate to that post's webpage.
+- Click on "ABOUT" link to navigate to the about webpage.
+- Click on "CONTACT" link to navigate to the contact webpage.
+- Use the "/post/post_id" route to navigate to each post based on post_id (integer).
+- Use the "/" route to navigate to the blog homepage.
+- Use the "/about" route to navigate to the about webpage.
+- Use the "/contact" route to navigate to the contact webpage.
+
+For a live version, go [here](https://replit.com/@grandeurkoe/better-blog?v=1) .
+
+![Blog (v2)](better-blog/better-blog.gif)
