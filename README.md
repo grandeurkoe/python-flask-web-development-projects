@@ -26,6 +26,4 @@ Website Navigation:
 - If the guessed_number is greater than the correct number, then display a webpage with "Too high, try again!" purple heading and a funny GIF.
 - If the guessed_number is correct, then display a webpage with "You found me!" green heading and a funny GIF.
 
-For a live version, go [here](https://replit.com/@grandeurkoe/python-decorators?v=1) .
-
 ![Higher or Lower URLs](higher-or-lower-urls/higher-or-lower-urls.gif)
