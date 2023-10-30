@@ -99,7 +99,7 @@ For a live version, go [here](https://replit.com/@grandeurkoe/flask-secrets?v=1)
 
 ### Day 062 - Coffee and Wi-Fi
 
-This project simulates a Coffee and Wi-Fi website using the Flask framework. Get acafe data from "cafe-data.csv" and store it. Use the flask_wtf and wtforms module to generate and validate the Cafe Form. Use the flask_bootstrap module to render Cafe Form in add cafe webpage.
+This project simulates a Coffee and Wi-Fi website using the Flask framework. Get cafe data from "cafe-data.csv" and store it. Use the flask_wtf and wtforms module to generate and validate the Cafe Form. Use the flask_bootstrap module to render Cafe Form in add cafe webpage.
 
 Website Navigation:
 - The Flask Secrets website is running on a development server that Flask ships with.
