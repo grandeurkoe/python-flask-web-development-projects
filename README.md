@@ -136,7 +136,7 @@ Website Navigation:
 - Enter new rating in the field and click "Change rating". This will update the rating for that book in the "Book" table and redirect to the Library homepage.
 - Click "Add book" link on the Library homepage to navigate to the add webpage.
 - Fill the form with new book details and click "Add book". This will create a new book entry in the "Book" table and redirect to the Library homepage.
-- - Use the "/add" route to navigate to the add webpage.
+- Use the "/add" route to navigate to the add webpage.
 
 For a live version, go [here](https://replit.com/@grandeurkoe/library-project?v=1) .
 
