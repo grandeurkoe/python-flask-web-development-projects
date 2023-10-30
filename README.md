@@ -83,17 +83,30 @@ For a live version, go [here](https://replit.com/@grandeurkoe/better-blog-with-c
 
 ### Day 061 - Flask Secrets
 
-This project simulates a Flask Secrets website using the Flask framework.
+This project simulates a Flask Secrets website using the Flask framework. Use the flask_wtf and wtforms module to generate and validate the Login Form. Use the flask_bootstrap module to render Login Form in login webpage.
 
 Website Navigation:
 - The Flask Secrets website is running on a development server that Flask ships with.
 - Use the "/" route to navigate to the secrets homepage.
 - Click the "Login" button to navigate to the login webpage.
 - Use the "/login" route to navigate to the login webpage.
-- Use the flask_wtf and wtforms module to generate and validate a Login Form.
 - If the credential entered in the Login form are incorrect, then display "denied.html" webpage.
 - If the credential entered in the Login form are correct, then display "success.html" webpage.
 
 For a live version, go [here](https://replit.com/@grandeurkoe/flask-secrets?v=1) .
 
 ![Flask Secrets](flask-secrets/flask-secrets.gif)
+
+### Day 062 - Coffee and Wi-Fi
+
+This project simulates a Coffee and Wi-Fi website using the Flask framework. Get acafe data from "cafe-data.csv" and store it. Use the flask_wtf and wtforms module to generate and validate the Cafe Form. Use the flask_bootstrap module to render Cafe Form in add cafe webpage.
+
+Website Navigation:
+- The Flask Secrets website is running on a development server that Flask ships with.
+- Use the "/" route to navigate to the Coffee and Wi-Fi homepage.
+- Click the "Show Me!" button to navigate to the cafes webpage.
+- Click "return to index page" link to navigate to the Coffee and Wi-Fi homepage.
+- Use the "/add" route to navigate to the add webpage.
+- Fill Cafe form and click "Submit" button.
+
+![Coffee and Wi-Fi](coffee-and-wifi/coffee-and-wifi.gif)
