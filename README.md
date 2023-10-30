@@ -55,7 +55,7 @@ Website Navigation:
 
 ### Day 059 - Blog (v2)
 
-This project simulates a Blog website using the Flask framework. Use the requests module to get post data from the [npoint](https://api.npoint.io/eb6cd8a5d783f501ee7d) API. Store the newly acquired JSON response. Use the Jinja template engine to create "header.html" and "footer.html" templates. Jinja allows you to add python code to HTML files.
+This project simulates a Blog website using the Flask framework. This website was built using the Bootstrap5 framework. Use the requests module to get post data from the [npoint](https://api.npoint.io/eb6cd8a5d783f501ee7d) API. Store the newly acquired JSON response. Use the Jinja template engine to create "header.html" and "footer.html" templates. Jinja allows you to add python code to HTML files.
 
 Website Navigation:
 - The Blog website is running on a development server that Flask ships with.
