@@ -158,6 +158,14 @@ Website Navigation:
 - The Top Movie website is running on a development server that Flask ships with.
 - Use the "/" route to navigate to the Top Movie homepage.
 - Click "Add movie" button on the Top Movie homepage to navigate to the add webpage.
-- Fill the empty field with the name of the movie you wish to add and click "Add movie" button.
-
+- Fill the AddMovieForm form with the name of the movie you wish to add and click "Add movie" button. Use the requests module to get movie data from [The Movie Database (TMDB)](https://developer.themoviedb.org/reference/intro/getting-started) API. Store the newly acquired JSON response and redirect to the select webpage.
+- Display each movie data as a link on the select webpage.
+- Click on one of the links and redirect to edit webpage.
+- Fill the UpdateMovieForm form to add rating and review for the movie you selected previously. This will create a new movie entry in the "Movie" table and redirect to the Top Movie homepage.
+- The Top Movie homepage will now display this newly added movie along with its details as a flippable card.
+- Hover over the movie card to flip it. The flipped card has two buttons ("Update" and "Delete") that will allow you to edit and delete that movie entry.
+- Click "Delete" button for a particular movie to delete it from "Movie" table.
+- Click "Update" to navigate to the edit webpage for that movie.
+- Use the "/add" route to navigate to the add webpage.
+  
 ![Top Movie](top-movies/top-movies.gif)
