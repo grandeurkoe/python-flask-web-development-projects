@@ -6,8 +6,10 @@ Each project has been built from scratch with minimal to no assistance.<br/>
 
 ### Day 054 - Python Decorator
 
-This project generates the hirst painting using the turtle module. Extract colors from an image ('hirst_painting_2.jpg') using the colorgram module and use these colors to generate a hirst painting.
+This project involves contructing your own custom python decorator. 
+
+Here, we created a delay constructor that prints "How are you?" after a 2 second delay.
 
 For a live version, go [here](https://replit.com/@grandeurkoe/the-hirst-painting-project?v=1) .
 
-![Python Decorator](the-hirst-painting-project/the-hirst-painting-project.gif)
+![Python Decorator](python-decorators/python-decorators.gif)
