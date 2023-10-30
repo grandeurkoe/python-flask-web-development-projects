@@ -88,7 +88,12 @@ This project simulates a Flask Secrets website using the Flask framework.
 Website Navigation:
 - The Flask Secrets website is running on a development server that Flask ships with.
 - Use the "/" route to navigate to the secrets homepage.
+- Click the "Login" button to navigate to the login webpage.
+- Use the "/login" route to navigate to the login webpage.
+- Use the flask_wtf and wtforms module to generate and validate a Login Form.
+- If the credential entered in the Login form are incorrect, then display "denied.html" webpage.
+- If the credential entered in the Login form are correct, then display "success.html" webpage.
 
-For a live version, go [here](https://replit.com/@grandeurkoe/better-blog-with-contact?v=1) .
+For a live version, go [here](https://replit.com/@grandeurkoe/flask-secrets?v=1) .
 
 ![Flask Secrets](flask-secrets/flask-secrets.gif)
