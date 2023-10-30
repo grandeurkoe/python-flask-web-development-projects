@@ -72,3 +72,11 @@ Website Navigation:
 For a live version, go [here](https://replit.com/@grandeurkoe/better-blog?v=1) .
 
 ![Blog (v2)](better-blog/better-blog.gif)
+
+### Day 060 - Blog (v3)
+
+This project is a upgraded version of [Blog (v2)](#day-059---blog-v2) with a functional contact form. 
+
+For a live version, go [here](https://replit.com/@grandeurkoe/better-blog-with-contact?v=1) .
+
+![Blog (v3)](better-blog-with-contact/better-blog-with-contact.gif)
