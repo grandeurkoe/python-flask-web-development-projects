@@ -55,7 +55,7 @@ Website Navigation:
 
 ### Day 059 - Blog (v2)
 
-This project simulates a Blog website using the Flask framework. Use the requests module to get post data from the [npoint](https://api.npoint.io/eb6cd8a5d783f501ee7d) API. Store the newly acquired JSON response.
+This project simulates a Blog website using the Flask framework. Use the requests module to get post data from the [npoint](https://api.npoint.io/eb6cd8a5d783f501ee7d) API. Store the newly acquired JSON response. Use the Jinja template engine to create "header.html" and "footer.html" templates. Jinja allows you to add python code to HTML files.
 
 Website Navigation:
 - The Blog website is running on a development server that Flask ships with.
@@ -80,3 +80,15 @@ This project is a upgraded version of [Blog (v2)](#day-059---blog-v2) with a fun
 For a live version, go [here](https://replit.com/@grandeurkoe/better-blog-with-contact?v=1) .
 
 ![Blog (v3)](better-blog-with-contact/better-blog-with-contact.gif)
+
+### Day 061 - Flask Secrets
+
+This project simulates a Flask Secrets website using the Flask framework.
+
+Website Navigation:
+- The Flask Secrets website is running on a development server that Flask ships with.
+- Use the "/" route to navigate to the secrets homepage.
+
+For a live version, go [here](https://replit.com/@grandeurkoe/better-blog-with-contact?v=1) .
+
+![Flask Secrets](flask-secrets/flask-secrets.gif)
