@@ -222,7 +222,7 @@ Website Navigation (for new features):
 
 For a live version, go [here](https://replit.com/@grandeurkoe/upgraded-blog?v=1) .
 
-![Blog (v3)](upgraded-blog/upgraded-blog.gif)
+![Blog (v4)](upgraded-blog/upgraded-blog.gif)
 
 ### Day 068 - Flask Authentication
 
@@ -249,6 +249,32 @@ Website Navigation:
 - Use the "/login" route to navigate to the login webpage.
 - Use the "/register" route to navigate to the register webpage.
 
-For a live version, go [here](https://replit.com/@grandeurkoe/upgraded-blog?v=1) .
+For a live version, go [here](https://replit.com/@grandeurkoe/authentication-with-flask?v=1) .
 
 ![Authentication with Flask](authentication-with-flask/authentication-with-flask.gif)
+
+### Day 069 - Blog (v5)
+
+This project is an upgraded version of [Blog (v4)](#day-067---blog-v4). Use the flask_login module to add session management capabilities to your Flask website. Use the werkzeug.security module to generate and check password hash. 
+
+Features added:
+- Register new users.
+- Login user.
+- Allow logged in users to make comments on posts.
+- Only allow admin user to add, edit and delete posts.
+
+![Blog (v5)](blog-with-users/blog-with-users.gif)
+
+### Day 071 - Grandeurkoe Blog
+
+This project is an upgraded version of [Blog (v5)](#day-069---blog-v5). 
+
+Features added:
+- Migrate from a developmental server to WSGI server.
+- Setup WSGI server with gunicorn.
+- Upgrade SQLite Database to PostgreSQL.
+- Deploy Grandeurkoe Blog on Render[https://render.com/].
+
+For a live version, go [here](https://grandeurkoe-blog.onrender.com/) .
+
+![Blog (v5)](blog-with-users/blog-with-users.gif)
