@@ -193,3 +193,17 @@ Website Navigation:
 - Use the "/report-closed" route to delete a cafe entry from the cafes database. You will need to provide the ID of the cafe to delete as a route. You will also need to provide a valid API for this operation to be allowed.
 
 ![Cafe API](cafe-api/cafe-api.gif)
+
+### Day 067 - Blog (v4)
+
+This project is a upgraded version of [Blog (v3)](#day-060---blog-v3).
+
+Features added:
+- Edit blog posts.
+- Delete blog posts.
+
+Website Navigation (for new features):
+
+For a live version, go [here](https://replit.com/@grandeurkoe/better-blog-with-contact?v=1) .
+
+![Blog (v3)](upgraded-blog/upgraded-blog.gif)
