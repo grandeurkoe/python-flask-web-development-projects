@@ -212,14 +212,43 @@ Steps involved in working with SQLAlchemy:
 6. Perform CRUD operations on table using SQLAlchemy object.
 
 Website Navigation (for new features):
-- Click "Create New Post" button in the Blog homepage and navigate to the new-post webpage.
+- Click "Create New Post" button in the Blog homepage to navigate to the new-post webpage.
 - Fill the PostForm form with new post details and click the "Submit Post" button. This will create a new post entry in the "BlogPost" table and redirect to the Blog homepage.
 - This newly created blog post will be displayed on the Blog homepage.
 - Each blog post displayed on the Blog homepage has an "✘" link. Click on "✘" to delete that entry from the "BlogPost" table and redirect to the Blog homepage. The Blog homepage will no longer display the deleted blog post.
 - Each blog post (only post title and subtitle) on the Blog homepage is  a hyperlink. Click on one the blog post link to navigate to their post webpage.
-- Each post webpage has an "Edit Post" button. Click on this button and navigate to the edit-post webpage for that blog post. Fill the form with the new changes you wish to make and click the "Submit Post" button. This will update that post entry in the "BlogPost" table and redirect to the Blog homepage.
+- Each post webpage has an "Edit Post" button. Click on this button to navigate to the edit-post webpage for that blog post. Fill the form with the new changes you wish to make and click the "Submit Post" button. This will update that post entry in the "BlogPost" table and redirect to the Blog homepage.
 - The changes to the blog post will now be reflected everywhere. 
 
 For a live version, go [here](https://replit.com/@grandeurkoe/upgraded-blog?v=1) .
 
 ![Blog (v3)](upgraded-blog/upgraded-blog.gif)
+
+### Day 068 - Flask Authentication
+
+This project simulates a Flask Authentication website using the Flask framework. Use the flask_login module to add session management capabilities to your Flask website. Use the werkzeug.security module to generate and check password hash. 
+
+Steps involved in working with SQLAlchemy:
+1. Create the app.
+2. Configure the SQLite database (users.db), relative to the app instance folder.
+3. Create an SQLAlchemy object .
+4. Initialize the app with the extension.
+5. Create table (User).
+6. Perform CRUD operations on table using SQLAlchemy object.
+
+Website Navigation:
+- The Flask Authentication website is running on a development server that Flask ships with.
+- Use the "/" route to navigate to the Flask Authentication homepage.
+- The Flask Authentication homepage has two buttons, namely "Login" and "Register".
+- Click the "Register" button to navigate to the register webpage. Fill the form with new user details and click "Sign me up". Use generate_password_hash() function to generate hash for your password. Store this password hash instead of your real password in "User" table Finally, push this entry to the "User" table and redirect to the secrets webpage. Before redirecting to the secrets webpage, pass the new user as an argument to the login_user() function to create a session for this user.
+- Click "Download your file" link to navigate to the download webpage. Here, you can read and download the Flask cheatsheet.
+- Click the "Login" button in the Flask Authentication homepage to navigate to the login webpage. Fill the form with your credentials. Use the  check_password_hash() function to check if the password hash matches with the ones in the "User" table.
+- If a match is found, then create a session for this user and navigate to the secrets webpage.
+- If you are logged in, then click "Logout" to logout(using the logout_user() function) the current user.
+- You need to be logged in to access the follow routes: "/secrets", "/download", "/logout" and "/download".
+- Use the "/login" route to navigate to the login webpage.
+- Use the "/register" route to navigate to the register webpage.
+
+For a live version, go [here](https://replit.com/@grandeurkoe/upgraded-blog?v=1) .
+
+![Authentication with Flask](authentication-with-flask/authentication-with-flask.gif)
