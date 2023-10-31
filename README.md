@@ -169,3 +169,27 @@ Website Navigation:
 - Use the "/add" route to navigate to the add webpage.
   
 ![Top Movie](top-movies/top-movies.gif)
+
+### Day 066 - Cafe API
+
+This projects involves building your own custom Cafe API using RESTful routing. Here, we use Postman for building and using APIs.
+
+Steps involved in working with SQLAlchemy:
+1. Create the app.
+2. Configure the SQLite database (cafes.db), relative to the app instance folder.
+3. Create an SQLAlchemy object .
+4. Initialize the app with the extension.
+5. Create table (Cafe).
+6. Perform CRUD operations on table using SQLAlchemy object.
+
+Website Navigation:
+- The Cafe API website is running on a development server that Flask ships with.
+- Use the "/" route to navigate to the Cafe API homepage.
+- Use the "/random" route to fetch a random cafe from the cafes database and display it in JSON format.
+- Use the "/all" route to fetch all the cafe data from the cafes database and display it in JSON format.
+- Use the "/search" route to search the cafes database for a cafe that matches the location queried. Use the loc parameter to pass a location name.
+- Use the "/add" route to add a new cafe entry into the cafes database. Requires authentication with api-key parameter.
+- Use the "/update-price" route to update black coffee price at a particular cafe using the id and new_price parameters.
+- Use the "/report-closed" route to delete a cafe entry from the cafes database. You will need to provide the ID of the cafe to delete as a route. You will also need to provide a valid API for this operation to be allowed.
+
+![Cafe API](cafe-api/cafe-api.gif)
