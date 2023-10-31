@@ -217,7 +217,7 @@ Website Navigation (for new features):
 - This newly created blog post will be displayed on the Blog homepage.
 - Each blog post displayed on the Blog homepage has an "✘" link. Click on "✘" to delete that entry from the "BlogPost" table and redirect to the Blog homepage. The Blog homepage will no longer display the deleted blog post.
 - Each blog post (only post title and subtitle) on the Blog homepage is  a hyperlink. Click on one the blog post link to navigate to their post webpage.
-- Each post webpage has an "Edit Post" button. Click on this button and navigate ot the edit-post webpage for that blog post. Fill the form with the new changes you wish to make and click the "Submit Post" button. This will update that post entry in the "BlogPost" table and redirect to the Blog homepage.
+- Each post webpage has an "Edit Post" button. Click on this button and navigate to the edit-post webpage for that blog post. Fill the form with the new changes you wish to make and click the "Submit Post" button. This will update that post entry in the "BlogPost" table and redirect to the Blog homepage.
 - The changes to the blog post will now be reflected on the Blog homepage.
 
 For a live version, go [here](https://replit.com/@grandeurkoe/better-blog-with-contact?v=1) .
