@@ -273,7 +273,7 @@ Features added:
 - Migrate from a developmental server to WSGI server.
 - Setup WSGI server with gunicorn.
 - Upgrade SQLite Database to PostgreSQL.
-- Deploy Grandeurkoe Blog on Render[https://render.com/].
+- Deploy Grandeurkoe Blog on [Render](https://render.com/).
 
 For a live version, go [here](https://grandeurkoe-blog.onrender.com/) .
 
