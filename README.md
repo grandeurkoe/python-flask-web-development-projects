@@ -220,6 +220,6 @@ Website Navigation (for new features):
 - Each post webpage has an "Edit Post" button. Click on this button and navigate to the edit-post webpage for that blog post. Fill the form with the new changes you wish to make and click the "Submit Post" button. This will update that post entry in the "BlogPost" table and redirect to the Blog homepage.
 - The changes to the blog post will now be reflected on the Blog homepage.
 
-For a live version, go [here](https://replit.com/@grandeurkoe/better-blog-with-contact?v=1) .
+For a live version, go [here](https://replit.com/@grandeurkoe/upgraded-blog?v=1) .
 
 ![Blog (v3)](upgraded-blog/upgraded-blog.gif)
