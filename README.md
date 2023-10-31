@@ -75,7 +75,7 @@ For a live version, go [here](https://replit.com/@grandeurkoe/better-blog?v=1) .
 
 ### Day 060 - Blog (v3)
 
-This project is a upgraded version of [Blog (v2)](#day-059---blog-v2) with a functional contact form. 
+This project is an upgraded version of [Blog (v2)](#day-059---blog-v2) with a functional contact form. 
 
 For a live version, go [here](https://replit.com/@grandeurkoe/better-blog-with-contact?v=1) .
 
@@ -196,7 +196,7 @@ Website Navigation:
 
 ### Day 067 - Blog (v4)
 
-This project is a upgraded version of [Blog (v3)](#day-060---blog-v3). Use the flask_wtf and wtforms module to generate and validate the PostForm form. Use the flask_bootstrap module to render PostForm form in new-post and edit-post webpage respectively.
+This project is an upgraded version of [Blog (v3)](#day-060---blog-v3). Use the flask_wtf and wtforms module to generate and validate the PostForm form. Use the flask_bootstrap module to render PostForm form in new-post and edit-posts webpage.
 
 Features added:
 - Create new blog post.
