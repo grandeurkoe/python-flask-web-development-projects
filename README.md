@@ -324,7 +324,6 @@ pip3 install -r requirements.txt
   <img alt="Bootstrap" src="https://img.shields.io/badge/-Bootstrap-59287a?style=flat-square&logo=bootstrap&logoColor=white" />
   <img alt="SQLite" src="https://img.shields.io/badge/-SQLite-7099f7?style=flat-square&logo=sqlite&logoColor=white" />
   <img alt="Jinja" src="https://img.shields.io/badge/-Jinja-3D0C11?style=flat-square&logo=jinja&logoColor=white" />
-  <img alt="Selenium" src="https://img.shields.io/badge/Selenium-16FF00?style=flat-square&logo=selenium&logoColor=white" />
   <img alt="Flask" src="https://img.shields.io/badge/-Flask-08abaa?style=flat-square&logo=flask&logoColor=white" />
   <img alt="Pycharm" src="https://img.shields.io/badge/-Pycharm-ffe873?style=flat-square&logo=pycharm&logoColor=black" />
   <img alt="Replit" src="https://img.shields.io/badge/-Replit-CD5C08?style=flat-square&logo=replit&logoColor=white" />
